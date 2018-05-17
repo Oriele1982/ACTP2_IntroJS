@@ -9,9 +9,42 @@ Tip: Investigar el evento window.onload
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Ejercicio 1 galeria</title>
+
   </head>
   <body>
+	<div>
+		<img src="../1/img/3.jpg" alt="Cafe2">
+		<img src="../1/img/4.jpg" alt="Cafe3">
+		<img src="../1/img/5.jpg" alt="Cafe4">
+		<img src="../1/img/índice.jpg" alt="Café5">
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		 <script>
+
+		 	$(document).ready(function() {
+		 		console.log('dom cargado')
+		 	})
+
+		 // $(function(){
+		 // 	console.log("DOM");
+		 // 	alert("Dom ok");
+		 // });
+
+      	$(window).on("load", function(){
+      		console.log('Imagenes cargadas')
+      		alert("Imágenes");
+      	});
+
+		 </script>
+
+	
+
+
+
+
 
   </body>
 </html>
